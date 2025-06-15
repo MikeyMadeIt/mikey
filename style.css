@@ -785,6 +785,9 @@ section.active{
 }
 
 @media screen and (max-width: 768px){
+   html{
+      font-size: 45%;
+   }
    #menu-icon{
       display: block;
    }
@@ -830,6 +833,9 @@ section.active{
 }
 
 @media screen and (max-width: 600px){
+   html{
+      font-size: 45%;
+   }
    .home-img .img-box{
       width: 30rem;
       height: 30rem;
@@ -863,7 +869,7 @@ section.active{
 
 @media screen and (max-width: 450px){
    html{
-      font-size: 50%;
+      font-size: 45%;
    }
    .home-detail,
    .resume-box h2,
@@ -890,6 +896,9 @@ section.active{
 }
 
 @media screen and (max-width: 400px){
+   html{
+      font-size: 45%;
+   }
    .home-detail,
    .resume-box h2,
    .resume-box .heading,
