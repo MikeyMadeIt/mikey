@@ -827,6 +827,9 @@ section.active{
    .portfolio-container .portfolio-box:first-child{
       order: 1;
    }
+   .resume-detail.about .resume-list{
+      grid-template-columns: 1fr;
+   }
 }
 
 @media screen and (max-width: 600px){
