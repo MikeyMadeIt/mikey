@@ -827,9 +827,6 @@ section.active{
    .portfolio-container .portfolio-box:first-child{
       order: 1;
    }
-   .resume-detail.about .resume-list{
-      grid-template-columns: 1fr;
-   }
 }
 
 @media screen and (max-width: 600px){
@@ -862,9 +859,6 @@ section.active{
    p{
       text-align: justify;
    }
-   .resume-detail.about .resume-list{
-      grid-template-columns: 1fr;
-   }
 }
 
 @media screen and (max-width: 450px){
@@ -893,9 +887,6 @@ section.active{
    p{
       text-align: justify;
    }
-   .resume-detail.about .resume-list{
-      grid-template-columns: 1fr;
-   }
 }
 
 @media screen and (max-width: 400px){
@@ -921,7 +912,10 @@ section.active{
    p{
       text-align: justify;
    }
-   .resume-detail.about .resume-list{
-      grid-template-columns: 1fr;
-   }
+}
+
+@media screen and (max-width: 768px) {
+  .resume-detail.about .resume-list {
+    grid-template-columns: 1fr;
+  }
 }
