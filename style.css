@@ -859,7 +859,7 @@ section.active{
    p{
       text-align: justify;
    }
-   .resume-list{
+   .resume-detail.about .resume-list{
       grid-template-columns: 1fr;
    }
 }
@@ -890,7 +890,7 @@ section.active{
    p{
       text-align: justify;
    }
-   .resume-list{
+   .resume-detail.about .resume-list{
       grid-template-columns: 1fr;
    }
 }
@@ -918,7 +918,7 @@ section.active{
    p{
       text-align: justify;
    }
-   .resume-list{
+   .resume-detail.about .resume-list{
       grid-template-columns: 1fr;
    }
 }
