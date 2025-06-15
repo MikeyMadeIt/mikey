@@ -525,7 +525,7 @@ section.active{
 
 .resume-detail.about .resume-list{
    height: auto;
-   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+   grid-template-columns: 1fr;
 }
 
 .resume-detail.about .resume-item{
@@ -859,9 +859,6 @@ section.active{
    p{
       text-align: justify;
    }
-   .resume-detail.about .resume-list {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
 }
 
 @media screen and (max-width: 450px){
@@ -890,9 +887,6 @@ section.active{
    p{
       text-align: justify;
    }
-   .resume-detail.about .resume-list {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
 }
 
 @media screen and (max-width: 400px){
@@ -918,14 +912,4 @@ section.active{
    p{
       text-align: justify;
    }
-   .resume-detail.about .resume-list {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-}
-
-@media screen and (max-width: 768px) {
-  .resume-detail.about .resume-list {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-  }
 }
