@@ -20,6 +20,8 @@
 
 html{
    font-size: 62.5%;
+   margin: 0;
+   padding: 0;
 }
 
 body{
@@ -853,6 +855,9 @@ section.active{
    .contact-box h2{
       font-size: 3.5rem;
    }
+   p{
+      text-align: justify;
+   }
 }
 
 @media screen and (max-width: 450px){
@@ -878,6 +883,9 @@ section.active{
    .contact-box h2{
       font-size: 3.5rem;
    }
+   p{
+      text-align: justify;
+   }
 }
 
 @media screen and (max-width: 400px){
@@ -899,5 +907,8 @@ section.active{
    }
    .contact-box h2{
       font-size: 3.5rem;
+   }
+   p{
+      text-align: justify;
    }
 }
