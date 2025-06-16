@@ -790,6 +790,10 @@ section.active{
       grid-template-columns: 1fr !important;
       gap: 1.5rem;
    }
+   .skills .skill-container{
+      grid-template-columns: 1fr !important;
+      gap: 1.5rem;
+   }
 }
 
 @media screen and (max-width: 768px){
@@ -842,6 +846,10 @@ section.active{
       grid-template-columns: 1fr !important;
       gap: 1.5rem;
    }
+   .skills .skill-container{
+      grid-template-columns: 1fr !important;
+      gap: 1.5rem;
+   }
 }
 
 @media screen and (max-width: 600px){
@@ -881,6 +889,10 @@ section.active{
       grid-template-columns: 1fr !important;
       gap: 1.5rem;
    }
+   .skills .skill-container{
+      grid-template-columns: 1fr !important;
+      gap: 1.5rem;
+   }
 }
 
 @media screen and (max-width: 450px){
@@ -913,6 +925,10 @@ section.active{
       grid-template-columns: 1fr !important;
       gap: 1.5rem;
    }
+   .skills .skill-container{
+      grid-template-columns: 1fr !important;
+      gap: 1.5rem;
+   }
 }
 
 @media screen and (max-width: 400px){
@@ -942,6 +958,10 @@ section.active{
       text-align: justify;
    }
    .resume-detail.education .resume-list {
+      grid-template-columns: 1fr !important;
+      gap: 1.5rem;
+   }
+   .skills .skill-container{
       grid-template-columns: 1fr !important;
       gap: 1.5rem;
    }
