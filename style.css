@@ -830,6 +830,10 @@ section.active{
    .portfolio-container .portfolio-box:first-child{
       order: 1;
    }
+   .resume-detail.education .resume-list{
+      grid: 1fr;
+      gap: 2rem;
+   }
 }
 
 @media screen and (max-width: 600px){
@@ -865,6 +869,10 @@ section.active{
    p{
       text-align: justify;
    }
+   .resume-detail.education .resume-list{
+      grid: 1fr;
+      gap: 2rem;
+   }
 }
 
 @media screen and (max-width: 450px){
@@ -893,6 +901,10 @@ section.active{
    p{
       text-align: justify;
    }
+   .resume-detail.education .resume-list{
+      grid: 1fr;
+      gap: 2rem;
+   }
 }
 
 @media screen and (max-width: 400px){
@@ -920,5 +932,9 @@ section.active{
    }
    p{
       text-align: justify;
+   }
+   .resume-detail.education .resume-list{
+      grid: 1fr;
+      gap: 2rem;
    }
 }
